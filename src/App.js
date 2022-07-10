@@ -67,6 +67,13 @@ function App() {
                     nextStep={nextStep} 
                     handleInputChange={handleInputChange} 
                     values={formData} />
+
+          {
+            formData.pName && formData.sName && formData.pLastName && formData.sLastName ?
+            <ChatButton color='green' onClick={nextStep}>Siguiente</ChatButton> 
+            :
+            <ChatButton color='lightgray' disabled>Siguiente</ChatButton>
+            }
           </>
         );
       case 1:

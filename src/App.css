@@ -1,38 +1,88 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* .App {
+  height: 100vh;
+  background: #222;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+} 
+
+.chat__container {
+  background: white;
+  width: 340px;
+  border-radius: 5px;
+  overflow: hidden;
 }
 
-.App-link {
-  color: #61dafb;
+.chat__container header, .chat__container .chat__body, .chat__footer {
+  padding: 2rem 1rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.chat__container header, .chat__footer {
+  background-color: hotpink;
 }
+*/
+/* .chat__body {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  overflow-y: auto;
+  max-height: 50vh;
+  min-height: 45vh;
+} 
+
+.chat__bubble {
+  align-self: flex-end;
+}
+*/
+
+/* .chat__body .step__1, .chat__body .step__2, .chat__body .step__3 {
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid green;
+}
+
+.avatar__photo {
+  width: 50px;
+  height: 64px;
+  position: relative;
+}
+
+.chat__body .avatar__photo img {
+  width: 50px;
+  height: 64px;
+  border-radius: 42%;
+  object-fit: cover;
+  border: 2px solid hotpink;
+}
+
+.chat__body .avatar__photo::after {
+  content: '';
+  display: block;
+  width: 15px;
+  height: 15px;
+  background-color: yellowgreen;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 0;
+  right: -2px;
+} 
+
+
+.chat__body .scroll_top {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 30px;
+  height: 30px;
+  background-color: hotpink;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+*/
+/* .form__group button {
+  display: none;
+} */
